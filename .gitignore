@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignorar datasets pesados de Kaggle pero conservar el README
+data/*.csv
+.ipynb_checkpoints/
+__pycache__/
