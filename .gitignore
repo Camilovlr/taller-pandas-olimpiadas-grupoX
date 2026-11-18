@@ -224,5 +224,9 @@ __marimo__/
 
 # Ignorar datasets pesados de Kaggle pero conservar el README
 data/*.csv
-.ipynb_checkpoints/
+venv/
+.venv/
 __pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
